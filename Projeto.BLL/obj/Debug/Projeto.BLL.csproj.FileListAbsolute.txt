@@ -1,0 +1,6 @@
+D:\COTI informatica\GitHub 19 MVC\Projeto19\Projeto.BLL\bin\Debug\Projeto.BLL.dll
+D:\COTI informatica\GitHub 19 MVC\Projeto19\Projeto.BLL\bin\Debug\Projeto.BLL.pdb
+D:\COTI informatica\GitHub 19 MVC\Projeto19\Projeto.BLL\obj\Debug\Projeto.BLL.csprojResolveAssemblyReference.cache
+D:\COTI informatica\GitHub 19 MVC\Projeto19\Projeto.BLL\obj\Debug\Projeto.BLL.csproj.CoreCompileInputs.cache
+D:\COTI informatica\GitHub 19 MVC\Projeto19\Projeto.BLL\obj\Debug\Projeto.BLL.dll
+D:\COTI informatica\GitHub 19 MVC\Projeto19\Projeto.BLL\obj\Debug\Projeto.BLL.pdb

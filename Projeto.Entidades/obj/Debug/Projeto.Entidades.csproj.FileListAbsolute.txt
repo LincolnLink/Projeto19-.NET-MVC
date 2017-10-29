@@ -1,0 +1,6 @@
+D:\COTI informatica\GitHub 19 MVC\Projeto19\Projeto.Entidades\bin\Debug\Projeto.Entidades.dll
+D:\COTI informatica\GitHub 19 MVC\Projeto19\Projeto.Entidades\bin\Debug\Projeto.Entidades.pdb
+D:\COTI informatica\GitHub 19 MVC\Projeto19\Projeto.Entidades\obj\Debug\Projeto.Entidades.csprojResolveAssemblyReference.cache
+D:\COTI informatica\GitHub 19 MVC\Projeto19\Projeto.Entidades\obj\Debug\Projeto.Entidades.csproj.CoreCompileInputs.cache
+D:\COTI informatica\GitHub 19 MVC\Projeto19\Projeto.Entidades\obj\Debug\Projeto.Entidades.dll
+D:\COTI informatica\GitHub 19 MVC\Projeto19\Projeto.Entidades\obj\Debug\Projeto.Entidades.pdb
