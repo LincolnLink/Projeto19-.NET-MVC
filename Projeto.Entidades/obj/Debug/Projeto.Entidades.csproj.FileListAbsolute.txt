@@ -4,3 +4,13 @@ D:\COTI informatica\GitHub 19 MVC\Projeto19\Projeto.Entidades\obj\Debug\Projeto.
 D:\COTI informatica\GitHub 19 MVC\Projeto19\Projeto.Entidades\obj\Debug\Projeto.Entidades.csproj.CoreCompileInputs.cache
 D:\COTI informatica\GitHub 19 MVC\Projeto19\Projeto.Entidades\obj\Debug\Projeto.Entidades.dll
 D:\COTI informatica\GitHub 19 MVC\Projeto19\Projeto.Entidades\obj\Debug\Projeto.Entidades.pdb
+D:\COTI informatica\GitHub 19 MVC\Projeto.Entidades\bin\Debug\Projeto.Entidades.dll.config
+D:\COTI informatica\GitHub 19 MVC\Projeto.Entidades\bin\Debug\Projeto.Entidades.dll
+D:\COTI informatica\GitHub 19 MVC\Projeto.Entidades\bin\Debug\Projeto.Entidades.pdb
+D:\COTI informatica\GitHub 19 MVC\Projeto.Entidades\bin\Debug\EntityFramework.dll
+D:\COTI informatica\GitHub 19 MVC\Projeto.Entidades\bin\Debug\EntityFramework.SqlServer.dll
+D:\COTI informatica\GitHub 19 MVC\Projeto.Entidades\bin\Debug\EntityFramework.xml
+D:\COTI informatica\GitHub 19 MVC\Projeto.Entidades\bin\Debug\EntityFramework.SqlServer.xml
+D:\COTI informatica\GitHub 19 MVC\Projeto.Entidades\obj\Debug\Projeto.Entidades.csproj.CoreCompileInputs.cache
+D:\COTI informatica\GitHub 19 MVC\Projeto.Entidades\obj\Debug\Projeto.Entidades.dll
+D:\COTI informatica\GitHub 19 MVC\Projeto.Entidades\obj\Debug\Projeto.Entidades.pdb

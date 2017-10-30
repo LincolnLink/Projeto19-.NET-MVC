@@ -14,11 +14,12 @@ D:\COTI informatica\GitHub 19 MVC\Projeto.DAL\bin\Debug\Projeto.DAL.dll
 D:\COTI informatica\GitHub 19 MVC\Projeto.DAL\bin\Debug\Projeto.DAL.pdb
 D:\COTI informatica\GitHub 19 MVC\Projeto.DAL\bin\Debug\EntityFramework.dll
 D:\COTI informatica\GitHub 19 MVC\Projeto.DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\COTI informatica\GitHub 19 MVC\Projeto.DAL\bin\Debug\Projeto.Entidades.dll
+D:\COTI informatica\GitHub 19 MVC\Projeto.DAL\bin\Debug\Projeto.Entidades.pdb
+D:\COTI informatica\GitHub 19 MVC\Projeto.DAL\bin\Debug\Projeto.Entidades.dll.config
 D:\COTI informatica\GitHub 19 MVC\Projeto.DAL\bin\Debug\EntityFramework.xml
 D:\COTI informatica\GitHub 19 MVC\Projeto.DAL\bin\Debug\EntityFramework.SqlServer.xml
 D:\COTI informatica\GitHub 19 MVC\Projeto.DAL\obj\Debug\Projeto.DAL.csprojResolveAssemblyReference.cache
 D:\COTI informatica\GitHub 19 MVC\Projeto.DAL\obj\Debug\Projeto.DAL.csproj.CoreCompileInputs.cache
 D:\COTI informatica\GitHub 19 MVC\Projeto.DAL\obj\Debug\Projeto.DAL.dll
 D:\COTI informatica\GitHub 19 MVC\Projeto.DAL\obj\Debug\Projeto.DAL.pdb
-D:\COTI informatica\GitHub 19 MVC\Projeto.DAL\bin\Debug\Projeto.Entidades.dll
-D:\COTI informatica\GitHub 19 MVC\Projeto.DAL\bin\Debug\Projeto.Entidades.pdb

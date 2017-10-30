@@ -12,6 +12,7 @@ D:\COTI informatica\GitHub 19 MVC\Projeto.BLL\bin\Debug\EntityFramework.dll
 D:\COTI informatica\GitHub 19 MVC\Projeto.BLL\bin\Debug\Projeto.DAL.pdb
 D:\COTI informatica\GitHub 19 MVC\Projeto.BLL\bin\Debug\Projeto.DAL.dll.config
 D:\COTI informatica\GitHub 19 MVC\Projeto.BLL\bin\Debug\Projeto.Entidades.pdb
+D:\COTI informatica\GitHub 19 MVC\Projeto.BLL\bin\Debug\Projeto.Entidades.dll.config
 D:\COTI informatica\GitHub 19 MVC\Projeto.BLL\bin\Debug\EntityFramework.xml
 D:\COTI informatica\GitHub 19 MVC\Projeto.BLL\obj\Debug\Projeto.BLL.csprojResolveAssemblyReference.cache
 D:\COTI informatica\GitHub 19 MVC\Projeto.BLL\obj\Debug\Projeto.BLL.csproj.CoreCompileInputs.cache

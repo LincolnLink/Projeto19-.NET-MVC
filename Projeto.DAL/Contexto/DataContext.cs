@@ -16,7 +16,8 @@ namespace Projeto.DAL.Contexto
 
         //Regra 4) Construtor que envie para o DbContext a connectionstring..
         public DataContext()
-            : base(ConfigurationManager.ConnectionStrings["aula"].ConnectionString)
+            : base(ConfigurationManager
+                  .ConnectionStrings["aula"].ConnectionString)
         {
 
         }
