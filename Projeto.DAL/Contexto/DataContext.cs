@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data.Entity;
 using Projeto.Entidades;
-using Projeto.DAL.Mapeamento;
+using Projeto.DAL.Mapeamentos;
 using System.Configuration;
 
 namespace Projeto.DAL.Contexto

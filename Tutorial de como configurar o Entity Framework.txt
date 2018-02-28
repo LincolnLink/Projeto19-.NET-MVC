@@ -1,0 +1,73 @@
+1 - Mapea as entidades! 
+using( entidades, system.data.entity.modelConfiguration)
+
+A - Cria classe com o final "Map", e herda o EntityTypeConfiguration<TipoDaEntidade>
+
+B - Configura a tabela!____
+
+------------------------------------------------------------------------------
+
+2 - Configuração da conexao ao banco!
+using(entidade, system.data.entity, DAL.Mapeamentos)
+
+A -Cria a classe: DataContext, e herda o DbContexto
+
+B - Sobrescreva o método OnModelCreating, add cada classe mapeada!
+
+C - Para cada entidade devera ser declarado um DbSet<entidade>
+(ele fornece o CRUD)___
+
+-------------------------------------------------------------------------------
+
+3 - classes repositorios
+using(entidade, DAL.contexto, system.data.entity)
+
+A - Cria a classe com nome da entidade e o final "Repositorio".
+
+B - Cria os metodos para o CRUD ___
+
+-------------------------------------------------------------------------------------
+4 - Configuração da connectionString, no arquivo : WebConfig.xml____
+
+A - Adiciona uma referencia do system.configuration, no Projeto.DAL___
+
+B - Na classe Contexto, cria um construtor, que envia a connectionstring____
+
+--------------------------------------------------------
+
+5 - Migrations (CodeFirst)
+
+A - Na classe : DataContext, 
+aperta em Tools / NuGet Package Manager / Package Manager Console
+
+B - Escolhe:  Projeto.DAL para digitar o codigo : enable-migrations
+(é gerado uma pasta com arquivo!)___
+
+C - no construtor bota  a configuração: "AutomaticMigrationsEnabled = true;" ___
+
+D - para atualizar digita o comando " update-database -verbose" no prompt!____
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
