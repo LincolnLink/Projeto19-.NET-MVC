@@ -54,12 +54,97 @@ namespace Projeto.WEB.Controllers
         
         // GET: Cliente/Consulta
         public ActionResult Consulta()
+        {            
+            List<ClienteViewModelConsulta> lista = CarregarDados();
+            return View(lista);           
+        }
+        #endregion
+
+        #region Exclusao
+        // GET: Cliente/Exclusao/id
+        public ActionResult Exclusao(int id)
         {
-            //declarando uma lista da classe de modelo..
-            List<ClienteViewModelConsulta> lista
-           = new List<ClienteViewModelConsulta>();
             try
             {
+                ClienteBusiness business = new ClienteBusiness();
+                business.Excluir(id);
+
+                ViewBag.mensagem = "Cliente excluido com sucesso!";
+            }
+            catch (Exception e)
+            {
+                ViewBag.mensagem = e.Message;
+            }
+
+            List<ClienteViewModelConsulta> lista = CarregarDados();
+            //Nome da pagina
+            return View("Consulta", lista);
+        }
+        #endregion
+
+        #region Edicao
+        // GET: Cliente/Edicao/id
+        public ActionResult Edicao(int id)
+        {
+            ClienteViewModelEdicao model = new ClienteViewModelEdicao();
+
+            try
+            {
+                ClienteBusiness business = new ClienteBusiness();
+                Cliente c = business.ObterPorId(id);
+
+                model.IdCliente = c.IdCliente;
+                model.Nome = c.Nome;
+                model.Email = c.Email;
+                model.DataHoraCadastro = c.DataHoraCadastro;
+            }
+            catch(Exception e)
+            {
+                ViewBag.Mensagem = e.Message;
+            }
+            
+            //enviando a model para a pagina
+            return View(model);
+        }
+
+        // POST: Cliente/Edicao
+        [HttpPost]
+        public ActionResult Edicao(ClienteViewModelEdicao model)
+        {
+            if(ModelState.IsValid)
+            {
+                try
+                {
+                    Cliente c = new Cliente();
+                    c.IdCliente = model.IdCliente;
+                    c.Nome = model.Nome;
+                    c.Email = model.Email;
+                    c.DataHoraCadastro = model.DataHoraCadastro;
+
+                    ClienteBusiness business = new ClienteBusiness();
+                    business.Atulizar(c);
+
+                    ViewBag.Mensagem = "Cliente atualizado com sucesso!";
+                }
+                catch (Exception e)
+                {
+                    ViewBag.Mensagem = e.Message;
+                }
+            }
+
+            List<ClienteViewModelConsulta> lista = CarregarDados();
+            return View("Consulta", lista);
+        }
+
+        #endregion
+
+        #region CarregarDados
+
+        private List<ClienteViewModelConsulta> CarregarDados()
+        {
+            List<ClienteViewModelConsulta> lista = new List<ClienteViewModelConsulta>();
+            try
+            {               
                 //instanciar na classe de regras de negócio..
                 ClienteBusiness business = new ClienteBusiness();
                 //varrendo os clientes obtidos na camada de negocio..
@@ -67,10 +152,12 @@ namespace Projeto.WEB.Controllers
                 {
                     ClienteViewModelConsulta model
                    = new ClienteViewModelConsulta();
+
                     model.IdCliente = c.IdCliente;
                     model.Nome = c.Nome;
                     model.Email = c.Email;
                     model.DataHoraCadastro = c.DataHoraCadastro;
+
                     lista.Add(model); //adicionando na lista..
                 }
             }
@@ -81,12 +168,14 @@ namespace Projeto.WEB.Controllers
             }
 
             //enviando a lista para a página..
-            return View(lista); //fazendo o envio da lista para a página..
-        }     
+            return lista; //fazendo o envio da lista para a página..
+        }
+
+        #endregion
 
     }
 }
 
 
 
-#endregion
+
