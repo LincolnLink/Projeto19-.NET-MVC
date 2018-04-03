@@ -21,5 +21,6 @@ D:\COTI informatica\GitHub 19 MVC\Projeto.DAL\bin\Debug\EntityFramework.xml
 D:\COTI informatica\GitHub 19 MVC\Projeto.DAL\bin\Debug\EntityFramework.SqlServer.xml
 D:\COTI informatica\GitHub 19 MVC\Projeto.DAL\obj\Debug\Projeto.DAL.csprojResolveAssemblyReference.cache
 D:\COTI informatica\GitHub 19 MVC\Projeto.DAL\obj\Debug\Projeto.DAL.csproj.CoreCompileInputs.cache
+D:\COTI informatica\GitHub 19 MVC\Projeto.DAL\obj\Debug\Projeto.DAL.csproj.CopyComplete
 D:\COTI informatica\GitHub 19 MVC\Projeto.DAL\obj\Debug\Projeto.DAL.dll
 D:\COTI informatica\GitHub 19 MVC\Projeto.DAL\obj\Debug\Projeto.DAL.pdb

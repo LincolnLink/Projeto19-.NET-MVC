@@ -68,5 +68,6 @@ D:\COTI informatica\GitHub 19 MVC\Projeto.WEB\bin\pt-br\System.Web.Helpers.resou
 D:\COTI informatica\GitHub 19 MVC\Projeto.WEB\bin\pt-br\System.Web.Mvc.resources.dll
 D:\COTI informatica\GitHub 19 MVC\Projeto.WEB\obj\Debug\Projeto.WEB.csprojResolveAssemblyReference.cache
 D:\COTI informatica\GitHub 19 MVC\Projeto.WEB\obj\Debug\Projeto.WEB.csproj.CoreCompileInputs.cache
+D:\COTI informatica\GitHub 19 MVC\Projeto.WEB\obj\Debug\Projeto.WEB.csproj.CopyComplete
 D:\COTI informatica\GitHub 19 MVC\Projeto.WEB\obj\Debug\Projeto.WEB.dll
 D:\COTI informatica\GitHub 19 MVC\Projeto.WEB\obj\Debug\Projeto.WEB.pdb

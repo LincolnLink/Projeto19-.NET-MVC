@@ -29,7 +29,7 @@ namespace Projeto.WEB.Controllers
                 {
                     Cliente c = new Cliente();
                     c.Nome = model.Nome;
-                    c.Email = model.Nome;
+                    c.Email = model.Email;
 
                     //Cadastra o cliente
                     ClienteBusiness business = new ClienteBusiness();
@@ -102,8 +102,9 @@ namespace Projeto.WEB.Controllers
             {
                 ViewBag.Mensagem = e.Message;
             }
-            
+
             //enviando a model para a pagina
+           
             return View(model);
         }
 
