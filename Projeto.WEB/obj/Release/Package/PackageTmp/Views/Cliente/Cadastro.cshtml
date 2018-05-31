@@ -1,0 +1,49 @@
+﻿<!--Classe model na pagina-->
+@model Projeto.WEB.Models.ClienteViewModelCadastro
+
+
+@{
+    ViewBag.Title = "Cadastro";
+    Layout = "~/Views/Templates/Layout.cshtml";
+}
+
+<h4>Cadastro de Cliente</h4>
+<a href="/Home/Index">Voltar</a>
+<hr />
+
+<div class="row">
+    <div class="col-md-4">
+        <!--Criando um formulario com Razor-->
+        @using (Html.BeginForm())
+        {
+            @Html.LabelFor(model => model.Nome)
+            @Html.TextBoxFor(model => model.Nome,
+            new    
+            {
+                @placeholder = "Digite o nome",
+                @class = "form-control"
+            })
+            @Html.ValidationMessageFor(model => model.Nome, null, 
+            new { @class = "text-danger" })
+            <br />
+
+            @Html.LabelFor(model => model.Email)
+            @Html.TextBoxFor(model => model.Email,
+            new
+            {
+                @placeholder = "Digite o email",
+                @class = "form-control"
+            })
+            @Html.ValidationMessageFor(model => model.Email, null,
+            new { @class = "text-danger"})
+
+            <br />
+
+            <input type="submit" value="Cadastrar Cliente" class="bnt btn-success"/>
+            <br /><br />
+            <!--Exibe Mensagem-->
+            @ViewBag.Mensagem
+        }
+    </div>
+</div>
+

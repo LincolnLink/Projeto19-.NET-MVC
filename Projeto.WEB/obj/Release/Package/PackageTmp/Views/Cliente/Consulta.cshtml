@@ -1,0 +1,48 @@
+﻿@model List<Projeto.WEB.Models.ClienteViewModelConsulta>
+
+@{
+    ViewBag.Title = "Consulta";
+    Layout = "~/Views/Templates/Layout.cshtml";
+}
+
+<h4>Consulta de Cliente</h4>
+<a href="/Home/Index">Voltar</a>
+<hr />
+
+<div class="text-primary">
+    <strong>@ViewBag.Mensagem</strong>
+</div>
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>Código</th>
+            <th>Nome do cliente</th>
+            <th>Email</th>
+            <th>Data/Hora de cadastro</th>
+            <th>Operações</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.IdCliente</td>
+                <td>@item.Nome</td>
+                <td>@item.Email</td>
+                <td>@item.DataHoraCadastro</td>
+                <td>
+                    <a href="/Cliente/Exclusao/@item.IdCliente" class="btn btn-danger btn-sm">Excluir</a>
+                    <a href="/Cliente/Edicao/@item.IdCliente" class="btn btn-primary btn-sm" >Atualizar</a>
+                </td>                
+            </tr>
+        }
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="5">
+                Quantidade de clientes: @Model.Count
+            </td>
+        </tr>
+    </tfoot>
+</table>

@@ -11,7 +11,7 @@ D:\COTI informatica\GitHub 19 MVC\Projeto.Entidades\bin\Debug\EntityFramework.dl
 D:\COTI informatica\GitHub 19 MVC\Projeto.Entidades\bin\Debug\EntityFramework.SqlServer.dll
 D:\COTI informatica\GitHub 19 MVC\Projeto.Entidades\bin\Debug\EntityFramework.xml
 D:\COTI informatica\GitHub 19 MVC\Projeto.Entidades\bin\Debug\EntityFramework.SqlServer.xml
-D:\COTI informatica\GitHub 19 MVC\Projeto.Entidades\obj\Debug\Projeto.Entidades.csprojResolveAssemblyReference.cache
+D:\COTI informatica\GitHub 19 MVC\Projeto.Entidades\obj\Debug\Projeto.Entidades.csprojAssemblyReference.cache
 D:\COTI informatica\GitHub 19 MVC\Projeto.Entidades\obj\Debug\Projeto.Entidades.csproj.CoreCompileInputs.cache
 D:\COTI informatica\GitHub 19 MVC\Projeto.Entidades\obj\Debug\Projeto.Entidades.csproj.CopyComplete
 D:\COTI informatica\GitHub 19 MVC\Projeto.Entidades\obj\Debug\Projeto.Entidades.dll
